@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+<rect width="800" height="520" fill="#dceaf5"/>
+<circle cx="400" cy="190" r="72" fill="#123c69" opacity="0.12"/>
+<rect x="280" y="145" width="240" height="150" rx="18" fill="#123c69" opacity="0.14"/>
+<text x="400" y="365" font-family="Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="#123c69">Gedung Kampus</text>
+<text x="400" y="410" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#123c69">Ganti dengan foto kampus</text>
+</svg>
