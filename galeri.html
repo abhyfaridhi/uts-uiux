@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri Kampus dan Mahasiswa</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;line-height:1.6;color:#243047;background:#f3f6fb}
+
+     header{background:#123c69;color:#fff;padding:28px 18px;text-align:center}
+    nav{background:#0b2745;padding:12px;text-align:center}
+    nav a{color:#fff;text-decoration:none;margin:0 14px;font-weight:bold}
+    nav a:hover{color:#a9d6ff}
+    main{max-width:1100px;margin:28px auto;padding:0 18px}
+    .gallery{background:#fff;padding:22px;border-radius:14px;overflow:auto}
+    .photo-card{float:left;width:calc(33.333% - 20px);margin:10px;padding:12px;background:#f7f9fc;border-radius:10px;box-shadow:0 3px 12px #13294b12}
+    .photo-card img{width:100%;height:220px;object-fit:cover;object-position:center;border-radius:7px;display:block}
+    .photo-card h3{margin:10px 0 4px;color:#123c69;font-size:1.05rem}
+    .photo-card p{margin:0;font-size:.94rem}
+    .clearfix::after{content:"";display:table;clear:both}
+footer{clear:both;margin-top:30px;text-align:center;padding:18px;color:#fff;background:#0b2745}
+@media(max-width:800px){.photo-card{width:calc(50% - 20px)}}@media(max-width:520px)
+{    
+    .photo-card{width:calc(100% - 20px)}nav a{display:inline-block;margin:5px 8px}}
+
+</style></head><body>
+    
+<header><h1>Galeri Kampus dan Mahasiswa</h1><p>Dokumentasi kegiatan, kebersamaan, dan hobi</p></header>
+<nav aria-label="Navigasi utama"><a href="index.html">Beranda</a><a href="kampus.html">Profil Kampus</a><a href="galeri.html">Galeri</a></nav>
+<main><section class="gallery clearfix">
+<article class="photo-card"><img src="images/galeri-1.jpg" alt="Foto seminar UMCI"><h3>Seminar UMCI</h3><p>Momen kegiatan Keberlangsungan seminar UMCI.</p></article>
+<article class="photo-card"><img src="images/galeri-2.jpg" alt="Foto PMB Mahasiswa UMCI"><h3>PMB UMCI</h3><p>Galeri Foto Kegiatan Stadium General dan Darul Arqom Mahasiswa Baru STTM Cileungsi Tahun Akademik 2020.</p></article>
+<article class="photo-card"><img src="images/galeri-3.jpeg" alt="Rapat HIMATIF"><h3>Rapat perdana HIMATIF</h3><p>Foto Keberlangsungannya Rapat HIMATIF.</p></article>
+<article class="photo-card"><img src="images/galeri-4.jpeg" alt="Foto Kegiatan Mahasiswa"><h3>Kegiatan Mahasiswa </h3><p>Foto Keberlangsungan mata kuliah, Mahasiswa di kelas.</p></article>
+<article class="photo-card"><img src="images/galeri-5.jpeg" alt="Dokumentasi kegiatan Mahasiswa UMCI"><h3>Kebersamaan Komunitas</h3><p>Berpartisipasi dalam kegiatan olahraga bersama.</p></article>
+<article class="photo-card"><img src="images/galeri-6.jpeg" alt="Foto loby kampus UMCI"><h3>loby UMCI</h3><p>Lobi Universitas Muhammadiyah Cileungsi (UMCI) merupakan area penerima tamu yang menampilkan identitas kampus dengan suasana nyaman dan ramah.</p></article>
+<div class="clearfix"></div></section></main><footer><p>&copy; 2026 Galeri Kampus</p></footer></body></html>
